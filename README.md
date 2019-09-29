@@ -1,5 +1,7 @@
 # normalsalt.github.io
 
+https://normalsalt.github.io/
+
 ### Gemfile
 
 ```
