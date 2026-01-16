@@ -40,6 +40,9 @@
       const params = new URLSearchParams(window.location.search);
       const name = params.get('name') || 'shortcut';
       window.location.href = `shortcuts://run-shortcut?name=${name}`;
+      setTimeout(function() {
+        window.close();
+      }, 3000);
     </script>
   </body>
 </html>
